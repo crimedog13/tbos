@@ -1,10 +1,6 @@
-import pygame as pg
-import os
-import main as main
-import load as load
+import pygame
 
-class Bird(pg.sprite.Sprite):
-
-    def __init__(self):
-        pg.sprite.Sprite.__init__(self)
-        self.image, self.rect = load.loadSprite()
+class Bird:
+    position = pygame.Vector2()
+    # position.xy = 
+    sprite = pygame.image.load('/sprites/bird.png')
