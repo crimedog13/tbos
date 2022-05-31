@@ -1,2 +1,7 @@
-import pygame 
-from pygame.locals import *
+import os
+import pygame  as pg
+import load as load
+
+
+
+
